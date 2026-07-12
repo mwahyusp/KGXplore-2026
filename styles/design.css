@@ -68,6 +68,43 @@ body {
     box-shadow: 0 10px 15px rgba(0,0,0,0.1);
 }
 
+.card-badge {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+}
+
+.badge-blue { background-color: #EBF8FF; color: #2B6CB0; }
+.badge-purple { background-color: #FAF5FF; color: #6B46C1; }
+.badge-gold { background-color: #FEFCBF; color: #975A16; }
+
+.card-desc {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #4A5568;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.card-meta {
+    display: flex;
+    gap: 15px;
+    font-size: 0.85rem;
+    color: #718096;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.bento-item h3 {
+    font-size: 1.4rem;
+    color: var(--primary-color);
+}
+
 .main-card { grid-column: span 2; background: #E2E8F0; }
 
 .cta-btn-main, .cta-btn-nav, .track-btn {
