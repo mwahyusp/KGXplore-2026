@@ -102,6 +102,9 @@ body {
 }
 
 .modal-content h2 { margin-bottom: 2%; }
+
+.modal-content #regForm input { padding: 2%; }
+
 .close-btn { position: absolute; top: 15px; right: 20px; font-size: 28px; cursor: pointer; }
 
 .main-footer {
