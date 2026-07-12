@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>KGXplore 2026 | Enlightening Indonesia</title>
+        <link rel="icon" type="image/png" href="https://www.kompasgramedia.com/assets/images/favicon.png">
+        <link rel="icon" type="image/svg+xml" href="./assets/gemini-svg.svg">
+        <link rel="stylesheet" href="./styles/design.css">
+    </head>
+<body>
+    <nav class="navbar">
+        <div class="logo">KG<span>Media</span></div>
+        <button class="cta-btn-nav" id="navRegisterBtn">Register Now</button>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <span class="badge">Creative Marketing Event 2026</span>
+            <h1>Enlightening & Empowering Indonesia Through Tech</h1>
+            <p>Join Kompas Gramedia's biggest digital transformation exhibition. Explore interactive pavilions, tech talks, and publisher innovations.</p>
+            <button class="cta-btn-main" onclick="openModal('Hero Banner Banner')">Secure Your Ticket</button>
+        </div>
+    </header>
+
+    <main class="container">
+        <h2 class="section-title">Event Highlights</h2>
+        <div class="bento-grid">
+            <div class="bento-item main-card">
+                <h3>Main Stage: Future of Media</h3>
+                <p>Keynote speech on generative AI in modern publishing workflows.</p>
+                <button class="track-btn" data-item="Main Stage Keynote">Learn More</button>
+            </div>
+            <div class="bento-item sub-card-1">
+                <h3>Creative Lab</h3>
+                <p>Interactive UI/UX showcase.</p>
+                <button class="track-btn" data-item="Creative Lab Showcase">Explore</button>
+            </div>
+            <div class="bento-item sub-card-2">
+                <h3>Publisher Hub</h3>
+                <p>Monetization & Ads product showcase.</p>
+                <button class="track-btn" data-item="Publisher Hub Booth">View Booth</button>
+            </div>
+        </div>
+    </main>
+
+    <div id="registerModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+            <h2>Register for KGXplore 2026</h2>
+            <form id="regForm">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <button type="submit" class="cta-btn-main">Submit Registration</button>
+            </form>
+        </div>
+    </div>
+
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <div class="logo">KG<span>Media</span></div>
+                <p>Enlightening and empowering Indonesia through robust digital transformation and creative marketing solutions.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#about">About KG Media</a></li>
+                    <li><a href="#privacy">Privacy Policy</a></li>
+                    <li><a href="#terms">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Office Address</h4>
+                <p>Jalan Palmerah Selatan 22, RT04/RW02, Gelora Kel., Tanah Abang, Jakarta Pusat, 10270, Indonesia.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 KG Media. All rights reserved. Built as a Front End Developer Portfolio Concept.</p>
+        </div>
+    </footer>
+
+    <script src="./script/app.js"></script>
+</body>
+</html>
