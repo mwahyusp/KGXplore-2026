@@ -52,8 +52,13 @@ body {
 .bento-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    grid-auto-rows: minmax(280px, auto);
+    gap: 25px;
 }
+
+.main-card { grid-column: span 2; grid-row: span 1; }
+.sub-card-1 { grid-column: span 1; }
+.sub-card-2 { grid-column: span 1; }
 
 .bento-item {
     background: var(--card-bg);
@@ -82,6 +87,7 @@ body {
 .badge-blue { background-color: #EBF8FF; color: #2B6CB0; }
 .badge-purple { background-color: #FAF5FF; color: #6B46C1; }
 .badge-gold { background-color: #FEFCBF; color: #975A16; }
+.badge-green { background-color: #E6FFFA; color: #234E52; }
 
 .card-desc {
     font-size: 0.95rem;
